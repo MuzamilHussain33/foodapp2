@@ -1,0 +1,240 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: black;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.cart-account a {
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #222;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product {
+    background: #333;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+button {
+    background: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: black;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+/* Newsletter */
+.newsletter {
+    text-align: left;
+}
+
+.newsletter h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.newsletter input {
+    padding: 10px;
+    width: 220px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    background: #ff9800;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Footer Links */
+.footer-links {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-links div {
+    text-align: left;
+}
+
+.footer-links h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-links ul li a:hover {
+    color: white;
+}
+
+/* Social Icons */
+.social {
+    text-align: left;
+}
+
+.social h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.social a {
+    font-size: 20px;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.social a:hover {
+    color: #ff9800;
+}
+
+/* Copyright */
+footer p {
+    margin-top: 20px;
+    color: gray;
+    font-size: 14px;
+}
+/* Developer Interview Section */
+.developer-interview {
+    text-align: center;
+    padding: 40px;
+    background: #222;
+    color: white;
+}
+
+.developer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.developer img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+.developer-info {
+    max-width: 400px;
+    text-align: left;
+}
+
+.developer-info h3 {
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+
+.developer-info p {
+    margin: 5px 0;
+    color: #ddd;
+}
+
+.social {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+}
+
+.social h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.social a img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.social a img:hover {
+    transform: scale(1.2);
+}
+.logo img {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    display: block;
+}
